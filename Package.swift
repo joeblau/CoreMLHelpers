@@ -6,7 +6,6 @@ import PackageDescription
 let package = Package(
     name: "CoreMLHelpers",
     platforms: [
-        .macOS(.v10_15),
         .iOS(.v14)
     ],
     products: [
